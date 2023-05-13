@@ -5,8 +5,6 @@ import torchvision
 import numpy as np
 import pytorch_lightning as pl
 
-device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
-print("Device:", device)
 
 class Encoder(nn.Module):
 

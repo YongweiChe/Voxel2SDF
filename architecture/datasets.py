@@ -1,6 +1,5 @@
 import sys
-sys.path.append("/Users/yongwei.che/Voxel2SDF")
-
+sys.path.append('..')
 import glob
 import os
 import numpy as np
